@@ -7,15 +7,15 @@ const cx = canvas.getContext("2d");
 const DEGREE = Math.PI / 180;
 let frames = 0;
 
-const image = new Image(src = "../assets/pics/image-pack.png");
-image.src = "../assets/pics/image-pack.png";
+const image = new Image(src = "assets/pics/image-pack.png");
+image.src = "assets/pics/image-pack.png";
 
 const sounds = {
-    SCORE : new Audio(src = "../assets/sounds/score.wav"),
-    FLAP : new Audio(src = "../assets/sounds/flap.wav"),
-    HIT : new Audio(src = "../assets/sounds/hit.wav"),
-    DIE : new Audio(src = "../assets/sounds/die.wav"),
-    START : new Audio(src = "../assets/sounds/start.wav"),
+    SCORE : new Audio(src = "assets/sounds/score.wav"),
+    FLAP : new Audio(src = "assets/sounds/flap.wav"),
+    HIT : new Audio(src = "assets/sounds/hit.wav"),
+    DIE : new Audio(src = "assets/sounds/die.wav"),
+    START : new Audio(src = "assets/sounds/start.wav"),
 }
 
 const state = {
